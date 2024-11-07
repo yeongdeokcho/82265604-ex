@@ -1,20 +1,20 @@
 apiVersion : apps/v1
 kind: Deployment
 metadata:
-  name: "troubleshooting"
+  name: troubleshooting
   namespace: "82265604"
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: "troubleshooting"
+      app: troubleshooting
   template:
     metadata:
       labels:
-        app: "troubleshooting"
+        app: troubleshooting
     spec:
       containers:
-        - name: "troubleshooting"
+        - name: troubleshooting
           image: cepgbaseacr.azurecr.io/troubleshooting:latest
           ports:
           - containerPort: 8080
