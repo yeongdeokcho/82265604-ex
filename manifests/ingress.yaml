@@ -7,7 +7,7 @@ spec:
   ingressClassName: ingress-internal
   rules:
   # 사번으로 변경하세요
-  - host: 82265604.ce-aa.kubepia.net
+  - host: tr-82265604.ce-aa.kubepia.net
     http:
       paths:
       - path: /
