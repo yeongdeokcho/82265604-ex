@@ -1,8 +1,8 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: troubleshooting
-  namespace: "82265604"    
+    name: troubleshooting
+    namespace: "82265604"
 spec:
     ports:
     - port: 8080 
